@@ -1,0 +1,57 @@
+Sl No,Element Name,Element Type,Locator Name,Locator Value
+1,createUser,button,xpath,//input[@value='Create New User']/self::INPUT
+,,,xpath,"//input[@onclick=""document.location.href='/administration/useradd.do?noReload=false'""]/self::INPUT"
+,,,xpath,"//TABLE[@valign='top']/TBODY/TR[1]/TD[2]/INPUT[@onclick=""document.location.href='/administration/useradd.do?noReload=false'""]/self::INPUT"
+,,,xpath,/HTML/BODY/DIV/TABLE/TBODY/TR/TD/TABLE/TBODY/TR[1]/TD[2]/INPUT
+,,,cssSelector,div#container > table > tbody > tr > td > table > tbody > tr:nth-child(1) > td:nth-of-type(2) > input
+,,,cssSelector,td.mainContentPadding.rightPadding > table > tbody > tr:nth-child(1) > td:nth-of-type(2) > input
+,,,cssSelector,html > body > div:nth-child(1) > table > tbody > tr > td > table > tbody > tr:nth-child(1) > td:nth-of-type(2) > input
+2,usernameTB,textfield,name,username
+,,,xpath,//*[@name='username']
+,,,xpath,/HTML/BODY/DIV/FORM/TABLE/TBODY/TR[3]/TD/TABLE/TBODY/TR[5]/TD[2]/TABLE/TBODY/TR[1]/TD[3]/INPUT
+,,,cssSelector,div#container > form > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2) > table > tbody > tr:nth-child(1) > td:nth-of-type(3) > input:nth-child(1)
+,,,cssSelector,input[name=username]
+,,,cssSelector,table.formTable > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2) > table > tbody > tr:nth-child(1) > td:nth-of-type(3) > input:nth-child(1)
+,,,cssSelector,html > body > div:nth-child(1) > form > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2) > table > tbody > tr:nth-child(1) > td:nth-of-type(3) > input:nth-child(1)
+3,passwordTB,textfield,name,passwordText
+,,,xpath,//*[@name='passwordText']
+,,,xpath,/HTML/BODY/DIV/FORM/TABLE/TBODY/TR[3]/TD/TABLE/TBODY/TR[5]/TD[4]/TABLE/TBODY/TR[1]/TD[3]/INPUT
+,,,cssSelector,div#container > form > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(5) > td:nth-of-type(4) > table > tbody > tr:nth-child(1) > td:nth-of-type(3) > input
+,,,cssSelector,input[name=passwordText]
+,,,cssSelector,table.formTable > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(5) > td:nth-of-type(4) > table > tbody > tr:nth-child(1) > td:nth-of-type(3) > input
+,,,cssSelector,html > body > div:nth-child(1) > form > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(5) > td:nth-of-type(4) > table > tbody > tr:nth-child(1) > td:nth-of-type(3) > input
+4,passwordTBRetype,textfield,name,passwordTextRetype
+,,,xpath,//*[@name='passwordTextRetype']
+,,,xpath,/HTML/BODY/DIV/FORM/TABLE/TBODY/TR[3]/TD/TABLE/TBODY/TR[5]/TD[4]/TABLE/TBODY/TR[2]/TD[3]/INPUT
+,,,cssSelector,div#container > form > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(5) > td:nth-of-type(4) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) > input
+,,,cssSelector,input[name=passwordTextRetype]
+,,,cssSelector,table.formTable > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(5) > td:nth-of-type(4) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) > input
+,,,cssSelector,html > body > div:nth-child(1) > form > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(5) > td:nth-of-type(4) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) > input
+5,firstName,textfield,name,firstName
+,,,xpath,//*[@name='firstName']
+,,,xpath,/HTML/BODY/DIV/FORM/TABLE/TBODY/TR[3]/TD/TABLE/TBODY/TR[9]/TD[2]/TABLE/TBODY/TR[1]/TD[3]/INPUT
+,,,cssSelector,div#container > form > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2) > table > tbody > tr:nth-child(1) > td:nth-of-type(3) > input
+,,,cssSelector,input[name=firstName]
+,,,cssSelector,table.formTable > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2) > table > tbody > tr:nth-child(1) > td:nth-of-type(3) > input
+,,,cssSelector,html > body > div:nth-child(1) > form > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2) > table > tbody > tr:nth-child(1) > td:nth-of-type(3) > input
+6,lastName,textfield,name,lastName
+,,,xpath,//*[@name='lastName']
+,,,xpath,/HTML/BODY/DIV/FORM/TABLE/TBODY/TR[3]/TD/TABLE/TBODY/TR[9]/TD[2]/TABLE/TBODY/TR[2]/TD[3]/INPUT
+,,,cssSelector,div#container > form > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) > input
+,,,cssSelector,input[name=lastName]
+,,,cssSelector,table.formTable > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) > input
+,,,cssSelector,html > body > div:nth-child(1) > form > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) > input
+7,workdayDurationStr,textfield,name,workdayDurationStr
+,,,xpath,//*[@name='workdayDurationStr']
+,,,xpath,//input[@onblur='checkWorkdayDuration(this)']
+,,,xpath,/HTML/BODY/DIV/FORM/TABLE/TBODY/TR[3]/TD/TABLE/TBODY/TR[17]/TD[2]/TABLE/TBODY/TR/TD[3]/INPUT
+,,,cssSelector,div#container > form > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(17) > td:nth-of-type(2) > table > tbody > tr > td:nth-of-type(3) > input
+,,,cssSelector,input[name=workdayDurationStr]
+,,,cssSelector,table.formTable > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(17) > td:nth-of-type(2) > table > tbody > tr > td:nth-of-type(3) > input
+,,,cssSelector,html > body > div:nth-child(1) > form > table > tbody > tr:nth-of-type(3) > td > table > tbody > tr:nth-of-type(17) > td:nth-of-type(2) > table > tbody > tr > td:nth-of-type(3) > input
+8,   Create User   ,button,xpath,//input[@type='submit']
+,,,xpath,/HTML/BODY/DIV/FORM/TABLE/TBODY/TR[4]/TD/INPUT[1]
+,,,cssSelector,div#container > form > table > tbody > tr:nth-of-type(4) > td > input:nth-child(1)
+,,,cssSelector,form[name=UserAddForm] > table > tbody > tr:nth-of-type(4) > td > input:nth-child(1)
+,,,cssSelector,td.formbuttonpane > input:nth-child(1)
+,,,cssSelector,html > body > div:nth-child(1) > form > table > tbody > tr:nth-of-type(4) > td > input:nth-child(1)

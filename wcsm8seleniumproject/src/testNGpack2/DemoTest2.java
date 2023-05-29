@@ -19,6 +19,7 @@ public class DemoTest2 {
 	  int i=10;
 	  int j=0;
 	  int res=i/j;
+	  System.out.println(res);
 	  Reporter.log("f method",true);
   }
 }

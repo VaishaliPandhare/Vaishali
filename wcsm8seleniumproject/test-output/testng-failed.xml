@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dynamicScreenShot.AssertionInTestNg">
+      <class name="dynamicScreenShot.ActiTimeDataProvider">
         <methods>
-          <include name="property"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="loginInvalid" invocation-numbers="0"/>
+          <include name="propety"/>
         </methods>
-      </class> <!-- dynamicScreenShot.AssertionInTestNg -->
+      </class> <!-- dynamicScreenShot.ActiTimeDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
